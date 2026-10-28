@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="580" viewBox="0 0 1280 580" role="img" aria-label="Histogramme animé des températures en degrés Celsius">
+  <title>Comparaison animée des températures par ville</title>
+  <desc>Une paire de barres par ville compare les températures des 1er et 2 janvier 2006. Les barres grandissent successivement.</desc>
+  <rect width="100%" height="100%" fill="#f4f7fc"/>
+  <rect x="20" y="18" width="1240" height="535" rx="20" fill="#ffffff" stroke="#e3e9f3"/>
+  <text x="65" y="67" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#17233c">Températures par ville</text>
+  <text x="65" y="95" font-family="Arial, sans-serif" font-size="15" fill="#64748b">Histogramme animé — températures en °C</text>
+  <rect x="700" y="48" width="18" height="18" rx="3" fill="#2563eb"/>
+  <text x="725" y="63" font-family="Arial, sans-serif" font-size="16" fill="#334155">2006-01-01</text>
+  <rect x="885" y="48" width="18" height="18" rx="3" fill="#f59e0b"/>
+  <text x="910" y="63" font-family="Arial, sans-serif" font-size="16" fill="#334155">2006-01-02</text>
+  <line x1="92" y1="470" x2="1215" y2="470" stroke="#e5eaf2" stroke-width="1"/>
+  <text x="78" y="475" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#64748b">0</text>
+  <line x1="92" y1="380" x2="1215" y2="380" stroke="#e5eaf2" stroke-width="1"/>
+  <text x="78" y="385" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#64748b">10</text>
+  <line x1="92" y1="290" x2="1215" y2="290" stroke="#e5eaf2" stroke-width="1"/>
+  <text x="78" y="295" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#64748b">20</text>
+  <line x1="92" y1="200" x2="1215" y2="200" stroke="#e5eaf2" stroke-width="1"/>
+  <text x="78" y="205" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#64748b">30</text>
+  <line x1="92" y1="110" x2="1215" y2="110" stroke="#e5eaf2" stroke-width="1"/>
+  <text x="78" y="115" text-anchor="end" font-family="Arial, sans-serif" font-size="14" fill="#64748b">40</text>
+  <line x1="92" y1="110" x2="92" y2="470" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="92" y1="470" x2="1215" y2="470" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="146" y="503" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Casa</text>
+  <rect x="111" y="272" width="29" height="198" rx="3" fill="#2563eb">
+    </rect>
+  <text x="125.5" y="260" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">22</text>
+  <rect x="149" y="281" width="29" height="189" rx="3" fill="#f59e0b">
+    </rect>
+  <text x="163.5" y="269" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">21</text>
+  <text x="281" y="503" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Rabat</text>
+  <rect x="246" y="290" width="29" height="180" rx="3" fill="#2563eb">
+    </rect>
+  <text x="260.5" y="278" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">20</text>
+  <rect x="284" y="263" width="29" height="207" rx="3" fill="#f59e0b">
+    </rect>
+  <text x="298.5" y="251" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">23</text>
+  <text x="416" y="503" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Fes</text>
+  <rect x="381" y="308" width="29" height="162" rx="3" fill="#2563eb">
+    </rect>
+  <text x="395.5" y="296" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">18</text>
+  <rect x="419" y="299" width="29" height="171" rx="3" fill="#f59e0b">
+    </rect>
+  <text x="433.5" y="287" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">19</text>
+  <text x="551" y="503" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Oujda</text>
+  <rect x="516" y="299" width="29" height="171" rx="3" fill="#2563eb">
+    </rect>
+  <text x="530.5" y="287" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">19</text>
+  <rect x="554" y="290" width="29" height="180" rx="3" fill="#f59e0b">
+    </rect>
+  <text x="568.5" y="278" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">20</text>
+  <text x="686" y="503" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Tanger</text>
+  <rect x="651" y="245" width="29" height="225" rx="3" fill="#2563eb">
+    </rect>
+  <text x="665.5" y="233" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">25</text>
+  <rect x="689" y="263" width="29" height="207" rx="3" fill="#f59e0b">
+    </rect>
+  <text x="703.5" y="251" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">23</text>
+  <text x="821" y="503" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Marrakech</text>
+  <rect x="786" y="218" width="29" height="252" rx="3" fill="#2563eb">
+    </rect>
+  <text x="800.5" y="206" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">28</text>
+  <rect x="824" y="227" width="29" height="243" rx="3" fill="#f59e0b">
+    </rect>
+  <text x="838.5" y="215" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">27</text>
+  <text x="956" y="503" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Ouarzazat</text>
+  <rect x="921" y="209" width="29" height="261" rx="3" fill="#2563eb">
+    </rect>
+  <text x="935.5" y="197" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">29</text>
+  <rect x="959" y="245" width="29" height="225" rx="3" fill="#f59e0b">
+    </rect>
+  <text x="973.5" y="233" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">25</text>
+  <text x="1091" y="503" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#334155">Agadir</text>
+  <rect x="1056" y="290" width="29" height="180" rx="3" fill="#2563eb">
+    </rect>
+  <text x="1070.5" y="278" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">20</text>
+  <rect x="1094" y="263" width="29" height="207" rx="3" fill="#f59e0b">
+    </rect>
+  <text x="1108.5" y="251" opacity="1" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e293b">23</text>
+  <text x="640" y="539" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8">Source : document XML — Animation SVG SMIL</text>
+</svg>
