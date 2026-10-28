@@ -1,0 +1,1 @@
+J’ai regardé la vidéo du cours et les explications étaient claires et faciles à comprendre. J’ai bien compris les différentes étapes de l’exercice. J’ai également utilisé l’intelligence artificielle uniquement pour améliorer la partie style et la présentation visuelle du résultat.
