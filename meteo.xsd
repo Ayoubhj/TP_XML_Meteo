@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="meteo">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="mesure" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="ville" maxOccurs="unbounded">
-                <xs:complexType>
-                  <xs:attribute name="nom" use="required">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:token">
-                        <xs:minLength value="1"/>
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:attribute>
-                  <xs:attribute name="temperature" type="xs:decimal" use="required"/>
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-            <xs:attribute name="date" type="xs:date" use="required"/>
-          </xs:complexType>
-          <xs:unique name="villeUniqueParMesure">
-            <xs:selector xpath="ville"/>
-            <xs:field xpath="@nom"/>
-          </xs:unique>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-    <xs:unique name="dateUnique">
-      <xs:selector xpath="mesure"/>
-      <xs:field xpath="@date"/>
-    </xs:unique>
-  </xs:element>
-</xs:schema>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="meteo">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="mesure"
+                             maxOccurs="unbounded"
+                             type="T_MESURE">
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:complexType name="T_MESURE">
+		<xsd:sequence>
+			<xsd:element name="ville"
+                         maxOccurs="unbounded"
+                         type="T_VILLE">
+			</xsd:element>
+		</xsd:sequence>
+		<xsd:attribute name="date"
+                       type="xsd:date"
+                       use="required">
+		</xsd:attribute>
+	</xsd:complexType>
+
+	<xsd:complexType name="T_VILLE">
+		<xsd:attribute name="nom"
+                       type="xsd:string"
+                       use="required">
+		</xsd:attribute>
+		<xsd:attribute name="temperature"
+                       type="xsd:double"
+                       use="required">
+		</xsd:attribute>
+	</xsd:complexType>
+
+</xsd:schema>
